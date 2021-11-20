@@ -1,0 +1,76 @@
+﻿<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Design.PreviewWith>
+        <Border Padding="20">
+			<TextBlock Classes="input_text">
+				Add
+			</TextBlock>
+        </Border>
+    </Design.PreviewWith>
+
+	<Style Selector="TextBlock.input_text">
+		<Setter Property="FontSize" Value="19"/>
+		<Setter Property="FontFamily" Value="Segoe Print"/>
+		<Setter Property="FontWeight" Value="900"/>
+	    <Setter Property="Foreground" Value="White"/>
+		<Setter Property="VerticalAlignment" Value="Bottom"/>
+	</Style>
+	<Style Selector="TextBox.input_box">
+		<Setter Property="FontSize" Value="16"/>
+		<Setter Property="Margin" Value="0 10 0 0"/>
+	</Style>
+	<Style Selector="Button.input_button">
+		<Setter Property="FontSize" Value="22"/>
+		<Setter Property="FontWeight" Value="550"/>
+		<Setter Property="FontFamily" Value="Segoe Print"/>
+		<Setter Property="Foreground" Value="WhiteSmoke"/>
+		<Setter Property="Cursor" Value="Hand"/>
+
+	</Style>
+
+	<Style Selector="Button:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+		<Setter Property="Button.Foreground" Value="Red" />
+		<Setter Property="Button.FontSize" Value="22"/>
+		<Setter Property="Button.FontWeight" Value="550"/>
+
+	</Style>
+
+
+	<!--
+	<Style Selector = "Button.input_button:pointerover">
+		<Setter Property="Template">
+			<ControlTemplate>
+				<Button FontSize="{TemplateBinding FontSize}"
+						Foreground="Red"
+						FontFamily="{TemplateBinding FontFamily}"
+						FontWeight="{TemplateBinding FontWeight}"
+						Cursor="{TemplateBinding Cursor}"
+						Padding="{TemplateBinding Padding}"
+						BorderThickness="0"
+						Content="{TemplateBinding Content}"
+						>
+				</Button>
+			</ControlTemplate>
+		</Setter>
+	</Style>-->
+	<Style Selector="Button.extra_button">
+		<Setter Property="Background" Value="Transparent"/>
+		<Setter Property="Padding" Value="0"/>
+		<Setter Property="VerticalAlignment" Value="Top"/>
+	</Style>
+	<Style Selector="Button:pointerover.extra_button/template/ContentPresenter">
+		<Setter Property="Button.Background" Value="Transparent"/>
+	</Style>
+	<Style Selector="TextBlock.extra_text">
+		<Setter Property="FontSize" Value="13"/>
+		<Setter Property="Margin" Value="0 15 0 0"/>
+		<Setter Property="FontWeight" Value="500"/>
+		<Setter Property="FontFamily" Value="Segoe Print"/>
+		<Setter Property="Foreground" Value="Goldenrod"/>
+	    <Setter Property="Cursor" Value="Hand"/>
+		<Setter Property="FontStyle" Value="Italic"/>
+	</Style>
+	<Style Selector="TextBlock.extra_text:pointerover">
+		<Setter Property="TextDecorations" Value="Underline"/>
+	</Style>
+</Styles>

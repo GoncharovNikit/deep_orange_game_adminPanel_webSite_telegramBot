@@ -1,0 +1,62 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="test_task.Views.CreateNewAccountWindow"
+                     MaxHeight="260"
+                     MaxWidth="400"
+		             MinHeight="260"
+                     MinWidth="400"
+		     Padding="10"
+		Title="CreateNewAccountWindow">
+	<Window.Background>
+		<ImageBrush Source="/Assets/Images/background.jpg" Stretch="Fill"/>
+	</Window.Background>
+	<Window.Styles>
+		<StyleInclude Source="/Assets/Styles/AuthorizationStyle.axaml"/>
+	</Window.Styles>
+
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition></ColumnDefinition>
+			<ColumnDefinition></ColumnDefinition>
+		</Grid.ColumnDefinitions>
+
+		<TextBlock Classes="input_text" Text="Enter Your Email" Grid.Column="0" Grid.Row="0"></TextBlock>
+		<TextBox Classes="input_box" Text="{Binding CurrentUser.Email}" Grid.Column="1" Grid.Row="0"></TextBox>
+
+		<TextBlock Classes="input_text" Text="Create Password" Grid.Column="0" Grid.Row="1"></TextBlock>
+		<TextBox Classes="input_box" Text="{Binding CurrentUser.Password}" PasswordChar="#" Grid.Column="1" Grid.Row="1"></TextBox>
+
+		<TextBlock Classes="input_text" Text="Confirm Password" Grid.Column="0" Grid.Row="2"></TextBlock>
+		<TextBox Classes="input_box" Text="{Binding CurrentUser.ConfirmPassword, }" PasswordChar="#" Grid.Column="1" Grid.Row="2"></TextBox>
+
+		<Button Classes="extra_button" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" Click="HasAccountClick">
+			<TextBlock Classes="extra_text" Text="have you alreade have account?"></TextBlock>
+		</Button>
+		<Button
+			    Classes="input_button"
+				Grid.Column="0"
+				Grid.Row="4"
+				Grid.ColumnSpan="2"
+				HorizontalAlignment="Center"
+				Padding="100 5 100 5"
+			    Command="{Binding CreateCommand}"
+				CommandParameter="{Binding CurrentUser}"
+				IsEnabled="True"
+				>
+			<Button.Styles>
+				<StyleInclude Source="/Assets/Styles/AuthorizationStyle.axaml"/>
+			</Button.Styles>
+			Create
+		</Button>
+	</Grid>
+</Window>

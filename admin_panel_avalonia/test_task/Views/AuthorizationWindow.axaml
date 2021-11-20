@@ -1,0 +1,63 @@
+<Window xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="test_task.Views.AuthorizationWindow"
+                     MaxHeight="200"
+                     MaxWidth="370"
+		             MinHeight="200"
+                     MinWidth="370"
+		     Title="Authorization"
+		     Padding="10">
+	<Window.Background>
+		<ImageBrush Source="/Assets/Images/background.jpg" Stretch="Fill"/>
+	</Window.Background>
+	<Window.Styles>
+		<StyleInclude Source="/Assets/Styles/AuthorizationStyle.axaml"/>
+	</Window.Styles>
+
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition></ColumnDefinition>
+			<ColumnDefinition></ColumnDefinition>
+		</Grid.ColumnDefinitions>
+
+		<TextBlock Classes="input_text" Text="Login" Grid.Column="0" Grid.Row="0"></TextBlock>
+		<TextBox Classes="input_box" Text="{Binding CurrentUser.Email}" Grid.Column="1" Grid.Row="0"></TextBox>
+
+		<TextBlock Classes="input_text" Text="Password" Grid.Column="0" Grid.Row="1"></TextBlock>
+		<TextBox Classes="input_box" Text="{Binding CurrentUser.Password}" PasswordChar="#" Grid.Column="1" Grid.Row="1"></TextBox>
+
+		<Button Grid.Column="0" Grid.Row="2" Classes="extra_button">
+			<TextBlock Classes="extra_text" Text="Forgot password" Grid.Column="0" Grid.Row="2"></TextBlock>
+		</Button>
+		<Button Grid.Column="1" Grid.Row="2" Classes="extra_button" Click="CreateAccountClick">
+	         <TextBlock Classes="extra_text" Text="create new accaunt"  Grid.Column="1" Grid.Row="2">
+		     </TextBlock>
+		</Button>
+		
+		<Button
+			    Classes="input_button"
+				Grid.Column="0" 
+				Grid.Row="3" 
+				Grid.ColumnSpan="2" 
+				HorizontalAlignment="Center"
+				Padding="100 5 100 5"
+				Command="{Binding AuthCommand}"
+				CommandParameter="{Binding CurrentUser}"
+				>
+			<Button.Styles>
+				<StyleInclude Source="/Assets/Styles/AuthorizationStyle.axaml"/>
+			</Button.Styles>
+			Authorization
+		</Button>
+	</Grid>
+	
+</Window>

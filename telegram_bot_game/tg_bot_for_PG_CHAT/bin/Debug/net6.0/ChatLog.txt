@@ -1,0 +1,371 @@
+10/28/2021 10:50:46 PM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent message: /start
+
+10/28/2021 10:50:51 PM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent message: апр
+
+10/28/2021 10:51:02 PM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent message: /rules
+
+10/28/2021 10:51:08 PM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent callbackquery: Like
+
+10/28/2021 10:51:08 PM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent callbackquery: Like
+
+10/28/2021 10:51:09 PM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent callbackquery: Dislike
+
+10/28/2021 10:51:13 PM
+username - foreigner07
+firstname - Dmitriy
+lastname - Usenko
+Id - 755867161
+Sent message: ух ебабоба
+
+10/28/2021 10:51:22 PM
+username - foreigner07
+firstname - Dmitriy
+lastname - Usenko
+Id - 755867161
+Sent message: ты шо сука
+
+10/28/2021 10:51:29 PM
+username - foreigner07
+firstname - Dmitriy
+lastname - Usenko
+Id - 755867161
+Sent message: охирел
+
+10/28/2021 10:51:38 PM
+username - foreigner07
+firstname - Dmitriy
+lastname - Usenko
+Id - 755867161
+Sent message: я тебя на ноль помножу
+
+10/28/2021 10:51:58 PM
+username - foreigner07
+firstname - Dmitriy
+lastname - Usenko
+Id - 755867161
+Sent message: /rules
+
+10/28/2021 10:52:13 PM
+username - foreigner07
+firstname - Dmitriy
+lastname - Usenko
+Id - 755867161
+Sent message: нахуй пошел
+
+10/28/2021 10:52:16 PM
+username - foreigner07
+firstname - Dmitriy
+lastname - Usenko
+Id - 755867161
+Sent callbackquery: Like
+
+10/28/2021 10:52:17 PM
+username - foreigner07
+firstname - Dmitriy
+lastname - Usenko
+Id - 755867161
+Sent callbackquery: Dislike
+
+10/28/2021 10:52:37 PM
+username - foreigner07
+firstname - Dmitriy
+lastname - Usenko
+Id - 755867161
+Sent message: я тебя на ноль умножу
+
+10/28/2021 10:52:44 PM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent message: /rules
+
+10/28/2021 10:53:31 PM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent callbackquery: Like
+
+10/28/2021 10:53:31 PM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent callbackquery: Dislike
+
+10/28/2021 10:54:02 PM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent message: /rules@PrommersChatBot
+
+10/28/2021 11:00:21 PM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent message: /rules
+
+10/28/2021 11:30:33 PM
+username - DemoncheGGG
+firstname - Dmitry
+lastname - 
+Id - 411269550
+Sent message: /start
+
+10/28/2021 11:30:33 PM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent message: /rules
+
+10/28/2021 11:30:38 PM
+username - DemoncheGGG
+firstname - Dmitry
+lastname - 
+Id - 411269550
+Sent message: /start
+
+10/28/2021 11:30:42 PM
+username - DemoncheGGG
+firstname - Dmitry
+lastname - 
+Id - 411269550
+Sent message: /rules
+
+10/28/2021 11:31:04 PM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent message: /rules
+
+10/28/2021 11:31:06 PM
+username - DemoncheGGG
+firstname - Dmitry
+lastname - 
+Id - 411269550
+Sent callbackquery: Like
+
+10/28/2021 11:31:28 PM
+username - DemoncheGGG
+firstname - Dmitry
+lastname - 
+Id - 411269550
+Sent message: меня слышно?
+
+10/28/2021 11:31:34 PM
+username - DemoncheGGG
+firstname - Dmitry
+lastname - 
+Id - 411269550
+Sent message: спасибо
+
+10/28/2021 11:31:40 PM
+username - DemoncheGGG
+firstname - Dmitry
+lastname - 
+Id - 411269550
+Sent callbackquery: Dislike
+
+10/28/2021 11:31:42 PM
+username - DemoncheGGG
+firstname - Dmitry
+lastname - 
+Id - 411269550
+Sent callbackquery: Like
+
+10/28/2021 11:38:54 PM
+username - foreigner07
+firstname - Dmitriy
+lastname - Usenko
+Id - 755867161
+Sent message: /rules@PrommersChatBot
+
+10/28/2021 11:39:29 PM
+username - foreigner07
+firstname - Dmitriy
+lastname - Usenko
+Id - 755867161
+Sent message: /rules@PrommersChatBot
+
+10/28/2021 11:40:30 PM
+username - foreigner07
+firstname - Dmitriy
+lastname - Usenko
+Id - 755867161
+Sent message: /rules@PrommersChatBot
+
+10/29/2021 12:02:15 AM
+username - foreigner07
+firstname - Dmitriy
+lastname - Usenko
+Id - 755867161
+Sent message: /rules@PrommersChatBot
+
+10/29/2021 12:02:15 AM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent message: /rules
+
+10/29/2021 12:18:14 AM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent message: /rules
+
+10/29/2021 12:25:22 AM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent message: /rules
+
+10/29/2021 12:25:30 AM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent callbackquery: Like
+
+10/29/2021 12:25:30 AM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent callbackquery: Dislike
+
+10/29/2021 12:25:30 AM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent callbackquery: Like
+
+10/29/2021 12:25:31 AM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent callbackquery: Dislike
+
+10/29/2021 12:25:31 AM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent callbackquery: Like
+
+10/31/2021 11:01:33 PM
+username - 
+firstname - 👑
+lastname - 
+Id - 517454543
+Sent message: /start
+
+10/31/2021 11:01:33 PM
+username - 
+firstname - 👑
+lastname - 
+Id - 517454543
+Sent message: /info
+
+10/31/2021 11:01:33 PM
+username - 
+firstname - 👑
+lastname - 
+Id - 517454543
+Sent message: /rules
+
+10/31/2021 11:01:33 PM
+username - 
+firstname - 👑
+lastname - 
+Id - 517454543
+Sent message: Tuxa
+
+10/31/2021 11:02:17 PM
+username - 
+firstname - 👑
+lastname - 
+Id - 517454543
+Sent message: /start
+
+10/31/2021 11:02:17 PM
+username - 
+firstname - 👑
+lastname - 
+Id - 517454543
+Sent message: /info
+
+10/31/2021 11:02:17 PM
+username - 
+firstname - 👑
+lastname - 
+Id - 517454543
+Sent message: /rules
+
+10/31/2021 11:02:17 PM
+username - 
+firstname - 👑
+lastname - 
+Id - 517454543
+Sent message: Tuxa
+
+11/1/2021 5:17:34 PM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent message: /rules
+
+11/1/2021 5:17:40 PM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent message: /info
+
+11/1/2021 5:17:49 PM
+username - BAN_AN_NA
+firstname - человечек
+lastname - 
+Id - 1903212333
+Sent message: jq
+

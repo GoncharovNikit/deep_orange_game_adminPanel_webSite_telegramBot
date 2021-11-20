@@ -1,0 +1,24 @@
+﻿<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Design.PreviewWith>
+        <Border Padding="20">
+            <!-- Add Controls for Previewer Here -->
+        </Border>
+    </Design.PreviewWith>
+
+	<Style Selector="Button.option_button">
+		<Setter Property="FontSize" Value="14"/>
+		<Setter Property="FontWeight" Value="400"/>
+		<Setter Property="FontFamily" Value="Segoe Print"/>
+		<Setter Property="Foreground" Value="WhiteSmoke"/>
+		<Setter Property="Cursor" Value="Hand"/>
+		<Setter Property="HorizontalAlignment" Value="Stretch"/>
+	</Style>
+
+	<Style Selector="Button.option_button:pointerover /template/ ContentPresenter">
+		<Setter Property="BorderThickness" Value="1"/>
+		<Setter Property="BorderBrush" Value="Aqua"/>
+		<Setter Property="Button.Foreground" Value="WhiteSmoke"/>
+	</Style>
+
+</Styles>

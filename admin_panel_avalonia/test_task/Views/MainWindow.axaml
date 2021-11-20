@@ -1,0 +1,68 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:test_task.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="test_task.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="test_task">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+	<Window.Styles>
+		<StyleInclude Source="/Assets/Styles/MainWindowStyle.axaml"/>
+	</Window.Styles>
+
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Left" Background="#233A43" Width="200" Spacing="5">
+			<Button Cursor="Hand" HorizontalAlignment="Stretch">
+				<Button.Styles>
+					<Style Selector="Button">
+						<Setter Property="Background" Value="#0E1621"/>
+						<Setter Property="CornerRadius" Value="0"/>
+						<Setter Property="BorderThickness" Value="0"/>
+					</Style>
+					<Style Selector=":pointerover/template/ContentPresenter">
+						<Setter Property="Background" Value="#0E1621"/>
+						<Setter Property="CornerRadius" Value="0"/>
+						<Setter Property="BorderThickness" Value="0"/>
+					</Style>
+					
+				</Button.Styles>
+				<Button.Content>
+					<StackPanel Orientation="Horizontal">
+					<TextBlock Text="-07-07@ukr.net" Foreground="#768C9E" Margin="0 0 10 0" MaxWidth="100"/>
+					<Image Source="/Assets/avalonia-logo.ico" Width="20" Height="20"/>
+					</StackPanel>
+				</Button.Content>
+			</Button>
+			<Button Classes="option_button" Content="My WordSets"/>
+			<Button Classes="option_button" Content="Create New WordSet"/>
+		</StackPanel>
+		<StackPanel DockPanel.Dock="Left" Background="#17212B" Width="250">
+			<TextBox Text="Search" Margin="13"></TextBox>
+			<ListBox Margin="13" DataContext="{Binding CurrentModule}">
+				<ListBox.ItemTemplate>
+					<DataTemplate>
+						<StackPanel>
+							<TextBlock Margin="5" Text="{Binding title}"/>
+							<TextBlock Margin="5" Text="{Binding date_of_create}"/>
+						</StackPanel>
+					</DataTemplate>
+				</ListBox.ItemTemplate>
+			</ListBox>
+		</StackPanel>
+
+		<DockPanel Background="#233A43" LastChildFill="False">
+			<StackPanel DockPanel.Dock="Top" Background="#1F2936">
+				<TextBlock Text="DeepOrange" FontFamily="Segoe Print" FontSize="16" Foreground="WhiteSmoke" Margin="20 0 0 0"/>
+				<TextBlock Text="20/10/21"  FontSize="9" Foreground="Goldenrod" Margin="20 5 0 5"/>
+			</StackPanel>
+			
+		</DockPanel>
+	</DockPanel>
+
+</Window>
